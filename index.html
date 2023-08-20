@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appvilla</title>
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- fontawsome CDN  -->
+    <script src="https://kit.fontawesome.com/2ae38f06fa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-4">
+            <div class="navbar-brand">
+                <a href="./index.html"><img class="w-50" src="./assets/images/logo/logo.svg" alt=""></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" href="#blog">Blog</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Blog Grid Sidebar</a>
+                            <a class="dropdown-item" href="#">Blog Single</a>
+                            <a class="dropdown-item" href="#">Blog Single Sibebar</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                </ul>
+                <div class="mr-4 d-block">
+                    <a class="btn" role="button" href="">Get It Now</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container-fluid container-1" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                        <h1 class="text-left">A Powerful App For Your Business.</h1>
+                        <p class="text-left">From open source to pro services, Piqes helps you to build, deploy, test, and monitor apps.</p>
+                        <button class="btn btn-lg btn-outline-light"><i class="fa-brands fa-apple"></i> App store</button>
+                        <button class="btn btn-lg btn-outline-light"><i class="fa-brands fa-google-play"></i> Google play</button>
+                </div>
+                <div class="col-lg-7">
+                    <img class="w-100" src="./assets/images/phone.png" alt="Phone">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-2" id="features">
+        <div class="container py-5">
+            <div class="row pt-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="p-top">FEATURES</p>
+                    <h2>Your Experience Gets Better And Better Over Time.</h2>
+                    <p class="p-bottom">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button class="btn btn-lg">
+                                <i class="fa-solid fa-cloud-arrow-up"></i>
+                            </button>
+                            <div class="card-title">
+                                <h3>Push to Deploy</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page at its layout.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button class="btn btn-lg">
+                                <i class="fa-solid fa-lock-keyhole"></i>
+                            </button>
+                            <div class="card-title">
+                                <h3>SSL Certificates</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page at its layout.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button class="btn btn-lg">
+                                <i class="fa-solid fa-arrows-rotate"></i>
+                            </button>
+                            <div class="card-title">
+                                <h3>Simple Queues</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page at its layout.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button class="btn btn-lg">
+                                <i class="fa-solid fa-shield"></i>
+                            </button>
+                            <div class="card-title">
+                                <h3>Advanced Security</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page at its layout.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button class="btn btn-lg">
+                                <i class="fa-solid fa-gear"></i>
+                            </button>
+                            <div class="card-title">
+                                <h3>Powerful API</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page at its layout.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button class="btn btn-lg">
+                                <i class="fa-solid fa-layer-group"></i>
+                            </button>
+                            <div class="card-title">
+                                <h3>Database Backups</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page at its layout.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container-3 overview-1" id="overview">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <button class="btn btn-lg"><i class="fa-solid fa-arrow-down-to-bracket"></i></button>
+                        <h2>1,25,000 Customers Using The Application!</h2>
+                        <p>Collaborate over projects with your team and clients optimised for mobile and tablet don't let slow page speeds drive our innovative platform empowers anyone to convert clicks ou'll publish your first landing page in minutes.</p>
+                        <button class="btn btn-lg">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="w-75" src="./assets/images/app-ss/app-ss1.png" alt="">
+                </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="w-75" src="./assets/images/app-ss/app-ss2.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <button class="btn btn-lg"><i class="fa-solid fa-table-layout"></i></i></button>
+                    <h2>Seamless Loyalty</h2>
+                    <p>Collaborate over projects with your team and clients optimised for mobile and tablet don't let slow page speeds drive our innovative platform empowers anyone to convert clicks ou'll publish your first landing page in minutes.</p>
+                    <button class="btn btn-lg">Get Started</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid overview-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto text-center">
+                    <h2>Trusted by developers from over 80 planets</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+    
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h2>100%</h2>
+                            <p>Satisfaction</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h2>120K</h2>
+                            <p>Happy Users</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h2>125k+</h2>
+                            <p>Downloads</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="container py-5">
+            <div class="row pt-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="p-top">PRICING</p>
+                    <h2>Pricing Plan</h2>
+                    <p class="p-bottom">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>Hobby</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>All the basics for starting a new business</p>
+                                <p><span class="price">$12</span>/mo</p>
+                            </div>
+                            <button class="btn btn-block btn-dark">Buy Hobby</button>
+                            <hr>
+                            <p>WHAT'S INCLUDED</p>
+                            <ul>
+                                <li>Cras justo odio.</li>
+                                <li>Dapibus ac facilisis in.</li>
+                                <li>Morbi leo risus.</li>
+                                <li>Potenti felis, in cras ligula.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>Freelancer</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>All the basics for starting a new business</p>
+                                <p><span class="price">$24</span>/mo</p>
+                            </div>
+                            <button class="btn btn-block btn-dark">Buy Hobby</button>
+                            <hr>
+                            <p>WHAT'S INCLUDED</p>
+                            <ul>
+                                <li>Cras justo odio.</li>
+                                <li>Dapibus ac facilisis in.</li>
+                                <li>Morbi leo risus.</li>
+                                <li>Potenti felis, in cras ligula.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>Startup</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>All the basics for starting a new business</p>
+                                <p><span class="price">$32</span>/mo</p>
+                            </div>
+                            <button class="btn btn-block btn-dark">Buy Hobby</button>
+                            <hr>
+                            <p>WHAT'S INCLUDED</p>
+                            <ul>
+                                <li>Cras justo odio.</li>
+                                <li>Dapibus ac facilisis in.</li>
+                                <li>Morbi leo risus.</li>
+                                <li>Potenti felis, in cras ligula.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>Enterprise</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>All the basics for starting a new business</p>
+                                <p><span class="price">$42</span>/mo</p>
+                            </div>
+                            <button class="btn btn-block btn-dark">Buy Hobby</button>
+                            <hr>
+                            <p>WHAT'S INCLUDED</p>
+                            <ul>
+                                <li> Cras justo odio.</li>
+                                <li>Dapibus ac facilisis in.</li>
+                                <li>Morbi leo risus.</li>
+                                <li>Potenti felis, in cras ligula.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section class="team" id="team">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="p-top">TEAM</p>
+                    <h2>Meat Our Team</h2>
+                    <p class="p-bottom">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img class="w-100" src="./assets/images/team/team1.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h2>Leonard Krasner</h2>
+                            </div>
+                            <div class="card-text">
+                                <p>Senior Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img class="w-100" src="./assets/images/team/team2.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h2>Leonard Krasner</h2>
+                            </div>
+                            <div class="card-text">
+                                <p>Senior Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mx-auto">
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img class="w-100" src="./assets/images/team/team3.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h2>Leonard Krasner</h2>
+                            </div>
+                            <div class="card-text">
+                                <p>Senior Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="testimonial py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto py-5 text-center">
+                    <div id="testimonialSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1500">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="d-block w-100">
+                                <img class="testimonial-brand testimonial-brand-1" src="./assets/images/testimonial/brand1.svg" alt="">
+                                <p>"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has"</p>
+                                <img class="testimonial-img" src="./assets/images/testimonial/testi1.jpg" alt="">
+                                <p>Musharof Chowdhury</p>
+                                <p>CEO - GrayGrids</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="d-block w-100">
+                                <img class="testimonial-brand" src="./assets/images/testimonial/brand3.svg" alt="">
+                                <p>"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has"</p>
+                                <img class="testimonial-img" src="./assets/images/testimonial/testi3.jpg" alt="">
+                                <p>Musharof Chowdhury</p>
+                                <p>CEO - GrayGrids</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="d-block w-100">
+                                <img class="testimonial-brand" src="./assets/images/testimonial/brand2.svg" alt="">
+                                <p>"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has"</p>
+                                <img class="testimonial-img" src="./assets/images/testimonial/testi2.jpg" alt="">
+                                <p>Musharof Chowdhury</p>
+                                <p>CEO - GrayGrids</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <img class="testi-1" src="./assets/images/testimonial/testi-patern.svg" alt="">
+                <img class="testi-2" src="./assets/images/testimonial/testi-patern.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid team-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2>Install Appvilla and Start Using</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    <button class="btn btn-lg btn-outline-light"><i class="fa-brands fa-apple"></i> App store</button>
+                    <button class="btn btn-lg btn-outline-light"><i class="fa-brands fa-google-play"></i> Google play</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq my-5">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="p-top">FAQ</p>
+                    <h2>Frequently Asked Questions</h2>
+                    <p class="p-bottom">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-lg">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <span class="badge badge-pill badge-light">01</span> How Do I Contact Customer Services?
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida augue. Duis ac dictum tellus
+
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                <span class="badge badge-pill badge-light">02</span> Material types can you work
+                                with?
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTow" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida augue. Duis ac dictum tellus
+
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                <span class="badge badge-pill badge-light">03</span> Can I have multiple activities in
+                                a single feature?</button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida augue. Duis ac dictum tellus
+
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                                <span class="badge badge-pill badge-light">04</span> How Clients Can Consult With
+                                online? </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida augue. Duis ac dictum tellus
+
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingFive">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                <span class="badge badge-pill badge-light">05</span> How Do I Contact Customer Services?
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida augue. Duis ac dictum tellus
+
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="blogs py-5" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="p-top">BLOGS</p>
+                    <h2>Our Latest News</h2>
+                    <p class="p-bottom">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img class="w-100" src="./assets/images/blog/blog-1.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p class="text-top">Blog</p>
+                            </div>
+                            <div class="card-title">
+                                <h3>Boost your conversion rate</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt dolore magna.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img class="w-100 rounded-circle" src="./assets/images/blog/comment1.jpg" alt="">
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="row">
+                                        <p>Roel Aufderhar</p>
+                                    </div>
+                                    <div class="row">
+                                        <p><span>Mar 15,2023</span> <span>5 min read</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img class="w-100" src="./assets/images/blog/blog-2.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p class="text-top">Video</p>
+                            </div>
+                            <div class="card-title">
+                                <h3>How to use search engine</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt dolore magna.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img class="w-100 rounded-circle" src="./assets/images/blog/comment2.jpg" alt="">
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="row">
+                                        <p>Jenifer Zuliya</p>
+                                    </div>
+                                    <div class="row">
+                                        <p><span>Feb 10,2023</span> <span>7 min read</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img class="w-100" src="./assets/images/blog/blog-3.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p class="text-top">Marketing</p>
+                            </div>
+                            <div class="card-title">
+                                <h3>Awesome ways to boost sales</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt dolore magna.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img class="w-100 rounded-circle" src="./assets/images/blog/comment3.jpg" alt="">
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="row">
+                                        <p> Roel Aufderhar</p>
+                                    </div>
+                                    <div class="row">
+                                        <p><span>Jan 20,2023</span> <span>6 min read</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <section class="client-logo">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2500">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <div class="row">
+                                <div class="col-lg-3">
+                                    <img class="w-100" src="./assets/images/client/lineicons-logo.svg" alt="">
+                                </div>
+                                <div class="col-lg-3">
+                                    <img class="w-100" src="./assets/images/client/pagebulb-logo.svg" alt="">
+                                </div>
+                                <div class="col-lg-3">
+                                    <img class="w-100" src="./assets/images/client/lineicons-logo.svg" alt="">
+                                </div>
+                                <div class="col-lg-3">
+                                    <img class="w-100" src="./assets/images/client/pagebulb-logo.svg" alt="">
+                                </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img class="w-100" src="./assets/images/client/lineicons-logo.svg" alt="">
+                                </div>
+                                <div class="col-lg-3">
+                                    <img class="w-100" src="./assets/images/client/pagebulb-logo.svg" alt="">
+                                </div>
+                                <div class="col-lg-3">
+                                    <img class="w-100" src="./assets/images/client/lineicons-logo.svg" alt="">
+                                </div>
+                                <div class="col-lg-3">
+                                    <img class="w-100" src="./assets/images/client/pagebulb-logo.svg" alt="">
+                                </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img class="w-100" src="./assets/images/client/lineicons-logo.svg" alt="">
+                                </div>
+                                <div class="col-lg-3">
+                                    <img class="w-100" src="./assets/images/client/pagebulb-logo.svg" alt="">
+                                </div>
+                                <div class="col-lg-3">
+                                    <img class="w-100" src="./assets/images/client/lineicons-logo.svg" alt="">
+                                </div>
+                                <div class="col-lg-3">
+                                    <img class="w-100" src="./assets/images/client/pagebulb-logo.svg" alt="">
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <address>
+                        <img class="w-50" src="./assets/images/logo/white-logo.svg" alt="">
+                        <p>Making the world a better place through constructing elegant hierarchies.</p>
+                        <p><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-youtube"></i><i class="fa-brands fa-pinterest"></i></p>
+                        <p>Designed and Developed by UIdeck</p>
+                    </address>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <h3>Solutions</h3>
+                            <ul>
+                                <li>Marketing</li>
+                                <li>Analytics</li>
+                                <li>Commerce</li>
+                                <li>Insights</li>
+                                <li>Promotion</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3>Support</h3>
+                            <ul>
+                                <li>Pricing</li>
+                                <li>Documentation</li>
+                                <li>Guides</li>
+                                <li>API Status</li>
+                                <li>Live Support</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3>Company</h3>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Our Blog</li>
+                                <li>Jobs</li>
+                                <li>Press</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3>Legal</h3>
+                            <ul>
+                                <li>Terms & Conditions</li>
+                                <li>Privacy Policy</li>
+                                <li>Catering Services</li>
+                                <li>Customer Relations</li>
+                                <li>Innovation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h3>Subscribe To Our Newsletter</h3>
+                                    <p>The latest news, articles, and resources, sent to your inbox weekly.</p>
+                                    
+                                </div>
+                                <div class="col-lg-6">
+                                    <form action="">
+                                        <div class="">
+                                            <input type="text" placeholder="Your email address">
+                                            <button role="button" class="btn btn-lg">Subscribe</button>
+                                            
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

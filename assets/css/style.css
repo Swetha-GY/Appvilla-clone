@@ -1,0 +1,340 @@
+
+.navbar{
+    background-color: #fff;
+}
+.navbar .nav-item{
+    margin: 0 2%;
+}
+.navbar .nav-item .nav-link{
+    color: #000;
+    font-size: 1.1em;
+}
+.navbar .nav-item .nav-link:hover{
+    color: hsl(351,100%,71%);
+}
+.navbar .btn{
+    background-color: hsl(351,100%,71%);
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0 2%;
+    width: 100%;
+}
+.navbar .btn:hover{
+    background-color: #000;
+}
+
+.container-1{
+    background-color: hsl(351,100%,71%);
+    color: #fff;
+    padding: 10% 0;
+}
+.container-1 .col-lg-5{
+    padding:  10% 0;
+}
+.container-1 .col-lg-5 h1{
+    font-weight: 700;
+}
+.container-1 .col-lg-5 p{
+    margin: 7% 0;
+}
+
+
+.container-2, .pricing , .testimonial , .blogs{
+    background-color: hsl(0,0%,98%);
+}
+.container-2 .p-top, .pricing .p-top , .team .p-top , .faq .p-top , .blogs .p-top , .contact-1 .p-top{
+    color: hsl(351,100%,71%);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
+.container-2 h2 , .pricing h2 , .team h2 , .faq h2 , .blogs h2 , .contact-1 h2{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.container-2 .p-bottom , .pricing .p-bottom , .team .p-bottom , .faq .p-bottom , .blogs .p-bottom , .contact-1 .p-bottom{
+    color: hsl(0,0%,58%);
+    font-size: 1.12em;
+}
+.container-2 .card{
+    margin: 5% 0;
+}
+.container-2 .card h3{
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 4% 0;
+}
+.container-2 .card p{
+    color: hsl(0,0%,58%);
+}
+.container-2 .btn{
+    background-color: hsl(351,100%,71%);
+    color: #fff;
+    padding: 5% 6%;
+}
+
+
+.container-3 .row{
+    padding: 10% 3%;
+}
+.container-3 h2{
+    font-weight: 700;
+    margin: 5% 0;
+}
+.container-3 p{
+    margin: 5% 0;
+    color: hsl(0,0%,58%);
+}
+.container-3 .btn{
+    background-color: hsl(351,100%,71%);
+    color: #fff;
+    padding: 2% 5%;
+    font-size: 1em;
+    font-weight: 600;
+}
+.overview-2 , .team-2 {
+    background-color: hsl(351,100%,71%);
+    color: #fff;
+    padding: 6% 0;
+}
+.overview-2 h2 , .team-2 h2{
+    font-size: 2.4em;
+    font-weight: 700;
+}
+.overview-2 .row , .team-2 p , .team-2 .btn{
+    margin-top: 5%;
+}
+
+/* pricing */
+.pricing .card{
+    margin: 4% 0;
+}
+.pricing .row .col-lg-3 h3{
+    font-size: 1em;
+    font-weight: 700;
+}
+.pricing .row .col-lg-3 p{
+    font-size: 1em;
+    color: hsl(0,0%,58%);
+}
+.pricing .row .col-lg-3 .price{
+    font-size: 2em;
+    font-weight: 700;
+    color: #000;
+}
+.pricing .row .col-lg-3 ul{
+    padding-left: 5%;
+}
+
+/* team */
+.team{
+    margin: 5% 0;
+}
+.team .card h2{
+    font-size: 1.2em;
+}
+.team .card p{
+    color: hsl(351,100%,71%);
+}
+.team .col-lg-4{
+    margin: 5% 0;
+}
+.testimonial{
+    padding: 15% 0;
+    position: relative;
+    overflow: hidden;
+}
+.testimonial .testimonial-brand{
+    width: 20%;
+    margin-bottom: 5%;
+}
+.testimonial .testimonial-brand-1{
+    width: 35.2%;
+}
+.testimonial .testimonial-img{
+    width: 8%;
+    border-radius: 50%;
+}
+.testimonial .testi-1{
+    position: absolute;
+    width: 15%;
+    right: -100px;
+    top: 0px;
+}
+.testimonial .testi-2{
+    position: absolute;
+    width: 15%;
+    left: -100px;
+    bottom: 0px;
+}
+
+/* faq  */
+.faq .col-lg .btn{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+.faq .col-lg .badge{
+    font-size: 1em;
+}
+
+/* blogs  */
+.blogs .text-top{
+    color: hsl(351,100%,71%);
+    font-size: 1em;
+    font-weight: 500;
+}
+.blogs .card h3{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+footer{
+    background-color: hsl(210,67%,9%);
+    color: hsl(216,13%,84%);
+    padding: 5% 0;
+}
+footer .col-lg-3 img{
+    padding-bottom: 3%;
+}
+footer .col-lg-3 i{
+    padding: 3% 2%;
+}
+footer .col-lg-3 h3{
+    font-size: 1.3em;
+    padding: 3% 0;
+
+}
+footer ul{
+    padding-left: 0%;
+}
+footer ul li{
+    list-style: none;
+    padding: 2% 0;
+}
+
+footer .col-lg-3 i:hover , footer ul li:hover{
+    color: hsl(351,100%,71%);
+}
+
+footer .card{
+    border: 1px solid hsl(216,13%,84%);
+    background-color: hsl(210,67%,9%);
+    color: hsl(216,13%,84%);
+    margin: 4% 0;
+    padding: 1.5% 4%;
+}
+footer form input{
+    width: 60%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: hsl(210,19%,27%);
+    color: #fff;
+}
+footer form .btn{
+    /* width: 25%; */
+    background-color: hsl(351,100%,71%);
+    color: #fff;
+}
+footer form .btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.contact-head{
+    background-color: hsl(351,100%,71%);
+    color: #fff;
+    text-align: center;
+    padding: 15% 10%;
+}
+/* contact-head
+breadcrumb */
+.contact-head h1{
+    font-size: 2.2em;
+    font-weight: 700;
+    padding-bottom: 2%;
+}
+.contact-head .container p a{
+    color: #fff;
+}
+
+.contact-head div p a{
+    text-decoration: none;
+}
+
+
+.contact-1{
+    padding: 5% 0;
+}
+.contact-1 .col-lg-8{
+    padding: 5% 0;
+}
+.contact-1 .card{
+    padding: 5%;
+}
+.contact-1 .card i{
+    font-size: 1.7em;
+    color: hsl(351,100%,71%);
+}
+.contact-1 .card h3{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.contact-1 .card p{
+    color: hsl(0,0%,58%);
+    font-weight: 600;
+}
+.contact-1 .card:hover{
+    background-color: hsl(351,100%,71%);
+    color: #fff;
+}
+
+
+
+.contact-form{
+    background-color: hsl(351,100%,71%);
+    padding: 8% 0;
+}
+.contact-form .form-left{
+    padding: 5% 0;
+    color: #fff;
+}
+.contact-form .form-left h2{
+    font-weight: 700;
+}
+.contact-form .form-left p{
+    font-weight: 500;
+}
+.contact-form .form-left .btn{
+    color: #fff;
+}
+.contact-form .form-right{
+    padding: 5% 0;
+}
+.contact-form form{
+    padding: 5%;
+    background-color: #fff;
+    border-radius: 2%;
+}
+.contact-form form .form-control{
+    background-color: hsl(0,0%,98%);
+}
+.contact-form form .btn{
+    background-color: hsl(351,100%,71%);
+    color: #fff;
+}
+.contact-form form .btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width : 540px) {
+    body{
+        text-align: center;
+    }
+    .pricing .card{
+        text-align: left;
+    }
+}
